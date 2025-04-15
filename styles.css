@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #014D4E;
+    color: white;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 60px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .logo span {
+    background-color: #014D4E;
+    color: #eeeeee;
+    padding: 2px 6px;
+    margin-right: 2px;
+  }
+  
+  nav a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 20px;
+  }
+  
+  nav .active {
+    border: 1px solid white;
+  }
+  
+  .contact-btn {
+    border: 1px solid white;
+  
+  }
+  
+  main {
+    padding: 60px;
+    max-width: 800px;
+  }
+  
+  main h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  main p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  .directors {
+    text-align: center;
+    background-color: #003333;
+    color: white;
+    padding: 40px 20px;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  
+  .card {
+    background-color: #002a2a;
+    padding: 20px;
+    border-radius: 8px;
+    width: 200px;
+    position: relative;
+  }
+  
+  .card img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  
+  .card h3 {
+    margin: 15px 0 5px;
+  }
+  
+  .card p {
+    font-size: 0.9em;
+    color: #ccc;
+  }
+  
+  .card button {
+    background-color: #ff7676;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    bottom: -15px;
+    left: calc(50% - 15px);
+    cursor: pointer;
+    
+  }
+
+  footer{
+    background-color: #002a2a;
+  }
+  body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .clients {
+    background-color: #003030;
+    color: rgb(247, 245, 245);
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .clients h2 {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  .logos img {
+    margin: 0 15px;
+    max-height: 30px;
+    vertical-align: middle;
+  }
+  
+  .cta {
+    background-color: #F47B7B;
+    text-align: center;
+    padding: 60px 20px;
+    display: flex;
+    display: ruby-text;
+  }
+  
+  .cta h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  .contact-btn {
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background: transparent;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .footer {
+    background-color: #003030;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+  }
+  
+  .footer-left {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .footer-right img {
+    width: 24px;
+    margin-left: 10px;
+  }
